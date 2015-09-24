@@ -1,0 +1,12 @@
+div {
+    background-color: black;
+}
+
+h1.bigHeader {
+    color: green;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+}

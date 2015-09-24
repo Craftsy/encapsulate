@@ -1,0 +1,43 @@
+{
+  "name": "encapsulate",
+  "version": "0.1.8",
+  "description": "CSS encapsulation for React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "encapsulation"
+  ],
+  "author": "Craftsy and Sympoz Inc.",
+  "contributors": [
+    "Brandon Konkle <brandon@konkle.us>",
+    "Chandler Prall <chandler.prall@craftsy.com>",
+    "Don Abrams <don.abrams@craftsy.com>"
+  ],
+  "license": "MIT",
+  "repository": "craftsy/encapsulate",
+  "dependencies": {
+    "css": "^2.2.1",
+    "recast": "^0.10.32",
+    "findup-sync": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.22",
+    "babel-eslint": "^4.1.0",
+    "babel-plugin-object-assign": "^1.2.1",
+    "chai": "^3.2.0",
+    "eslint": "^1.2.1",
+    "eslint-plugin-react": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "istanbul": "^0.3.18",
+    "mocha": "^2.2.5",
+    "proxyquire": "^1.7.1",
+    "sinon": "^1.16.1",
+    "sinon-chai": "^2.8.0",
+    "temp": "^0.8.3"
+  }
+}
