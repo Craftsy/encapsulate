@@ -72,7 +72,7 @@ let encapsulate = require('encapsulate');
 let jsxContent;
 let cssContent;
 
-// This can be any path that that has a package.json in it's hierarchy
+// This can be any path that that has a package.json in its hierarchy
 // e.g. /path/to/the/module
 // /path/to/the/module/package.json
 // /path/to/the/module/some/other/file
