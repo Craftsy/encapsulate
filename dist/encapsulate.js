@@ -49,6 +49,8 @@ function encapsulateJsxWithPackage(filePath, jsxString) {
 exports['default'] = {
     getClassNameAndContents: getClassNameAndContents,
     encapsulateCssWithPackage: encapsulateCssWithPackage,
-    encapsulateJsxWithPackage: encapsulateJsxWithPackage
+    encapsulateJsxWithPackage: encapsulateJsxWithPackage,
+    transformCss: _css.transformCss,
+    transformJsx: _jsx.transformJsx
 };
 module.exports = exports['default'];

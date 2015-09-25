@@ -29,4 +29,6 @@ export default {
     getClassNameAndContents,
     encapsulateCssWithPackage,
     encapsulateJsxWithPackage,
+    transformCss,
+    transformJsx
 };

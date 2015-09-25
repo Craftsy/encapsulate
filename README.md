@@ -54,15 +54,14 @@ There are a couple ways to use encapsulate
 
 ### specifying a custom CSS class name
 ```javascript
-let transformCss = require('encapsulate/dist/css').transformCss;
-let transformJsx = require('encapsulate/dist/jsx').transformJsx;
+let encapsulate = require('encapsulate');
 
 // somehow populate the JSX and CSS into these
 let jsxContent;
 let cssContent;
 
-let transformedJsx = transformJsx(jsxContent, 'FooComponent-1-0-0');
-let transformedCss = transformJsx(cssContent, 'FooComponent-1-0-0');
+let transformedJsx = encapsulate.transformJsx(jsxContent, 'FooComponent-1-0-0');
+let transformedCss = encapsulate.transformJsx(cssContent, 'FooComponent-1-0-0');
 ```
 
 ### computing the CSS class name from a package.json file
