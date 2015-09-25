@@ -61,7 +61,7 @@ let jsxContent;
 let cssContent;
 
 let transformedJsx = encapsulate.transformJsx(jsxContent, 'FooComponent-1-0-0');
-let transformedCss = encapsulate.transformJsx(cssContent, 'FooComponent-1-0-0');
+let transformedCss = encapsulate.transformCss(cssContent, 'FooComponent-1-0-0');
 ```
 
 ### computing the CSS class name from a package.json file
